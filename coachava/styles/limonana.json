@@ -1,0 +1,112 @@
+{
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#f7f3ed",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#1e1810",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#01e467",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#fdfefb",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#0e0c0c0d",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		},
+		"typography": {
+			"fontSizes": [
+				{
+					"fluid": false,
+					"name": "Small",
+					"size": "0.8rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "0.95rem",
+						"min": "0.8125rem"
+					},
+					"name": "Medium",
+					"size": "0.95rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "1.02rem",
+						"min": "1rem"
+					},
+					"name": "Large",
+					"size": "1.225rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "3rem",
+						"min": "2.625rem"
+					},
+					"name": "Extra Large",
+					"size": "3rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"max": "5.5rem",
+						"min": "3.5rem"
+					},
+					"name": "Double Extra Large",
+					"size": "5.5rem",
+					"slug": "xx-large"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/post-featured-image": {
+				"filter": {
+					"duotone": "var(--wp--preset--duotone--limonana)"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"letterSpacing": "-0.05rem"
+				}
+			},
+			"h2": {
+				"typography": {
+					"letterSpacing": "-0.025rem"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--barlow-semicondensed)",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--geist-mono)"
+		}
+	},
+	"version": 3,
+	"title": "Limonana"
+}
